@@ -9,7 +9,7 @@ header {
 }
 
 header .bg-cover {
-  background-image: url("../images/banner/banner1.png");
+  background-image: url("../images/banner/banner3.png");
   width: 1600px;
   height: 808px;
   background-size: cover;
@@ -23,10 +23,11 @@ header .bg-cover .left-section {
   font-size: 65px;
   font-weight: bold;
   text-align: right;
+  color: #ffffff;
 }
 
 .left-section .p-all {
-  color: #444343;
+  color: #ffffff;
   font-size: 16px;
   line-height: 26px;
   text-align: right;
@@ -36,8 +37,8 @@ header .bg-cover .left-section {
 .left-section .btn {
   width: 160px;
   height: 64px;
-  background-color: #F15B22;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #005fac;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -132,7 +133,7 @@ header .bg-cover .left-section {
 
 #call .txt-btn .btn-2 {
   background-color: #ffffff;
-  color: #F15B22;
+  color: #005fac;
   width: 160px;
   height: 64px;
   font-size: 20px;
@@ -197,8 +198,8 @@ footer .mail h3 {
 .mail button {
   width: 170px;
   height: 64px;
-  background-color: #ffffff;
-  color: #F15B22;
+  background-color: #005fac;
+  color: #ffffff;
   font-size: 20px;
   font-weight: 600;
   padding: 20px 36px;
