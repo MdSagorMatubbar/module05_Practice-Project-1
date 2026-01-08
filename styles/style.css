@@ -1,0 +1,207 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  font-family: 'work sans';
+}
+
+header .bg-cover {
+  background-image: url("../images/banner/banner1.png");
+  width: 1600px;
+  height: 808px;
+  background-size: cover;
+}
+
+header .bg-cover .left-section {
+  padding: 216px 230px 0 845px;
+}
+
+.left-section h1 {
+  font-size: 65px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.left-section .p-all {
+  color: #444343;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: right;
+  margin-top: 24px;
+}
+
+.left-section .btn {
+  width: 160px;
+  height: 64px;
+  background-color: #F15B22;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.left-section div {
+  text-align: right;
+  margin-top: 32px;
+}
+
+#experience {
+  display: flex;
+  margin-top: 131px;
+  justify-content: space-around;
+}
+
+#experience .image {
+  width: 569px;
+  height: 723px;
+  margin-left: 206px;
+}
+
+#experience .exp-content {
+  padding-top: 370px;
+  padding-left: 87px;
+}
+.exp-text h3 {
+  font-size: 40px;
+  color: #151414;
+  margin-bottom: 24px;
+}
+
+#experience .exp-text p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+
+}
+
+.exp-text .right {
+  color: #16D887;
+}
+
+#plan .title {
+  font-size: 40px;
+  color: #151414;
+  text-align: center;
+  margin-top: 130px;
+}
+
+#plan .box {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 230px;
+  gap: 86px;
+  margin-right: 229px;
+}
+
+#plan .box .card img {
+  width: 92px;
+  height: 92px;
+}
+
+#plan .box .card h4 {
+  font-size: 30px;
+}
+
+#plan .box .card p {
+  font-size: 23px;
+  color: #7372729a;
+}
+
+#call .bg{
+  background-image: url('../images/gradient2.png'), url(../images/watch.png);
+  width: 1140px;
+  height: 300px;
+  margin-top: 130px;
+  margin-left: 230px;
+  margin-bottom: 130px;
+}
+
+#call .txt-btn {
+  padding-top: 59px;
+  margin-left: 64px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #ffffff;
+  width: 459px;
+}
+
+#call .txt-btn .btn-2 {
+  background-color: #ffffff;
+  color: #F15B22;
+  width: 160px;
+  height: 64px;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  margin-top: 24px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #151414;
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+}
+
+footer .about {
+  margin: 130px 0 130px 230px;
+  width: 485px;
+  height: 317px;
+}
+
+footer .about h2 {
+  font-size: 45px;
+  margin-bottom: 16px;
+}
+
+footer .about p {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+footer .about img {
+  margin-right: 17px;
+}
+
+footer .mail {
+  margin: 130px 230px 243px 0;
+  width: 325px;
+  height: 204px;
+}
+
+footer .mail h3 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 31px;
+}
+
+.mail input[type="email"] {
+  font-size: 18px;
+  color: black;
+  padding: 21px 158px 22px 21px;
+  border: none;
+  border-radius: 8px;
+  width: 325px;
+  height: 61px;
+  margin-bottom: 16px;
+}
+
+.mail button {
+  width: 170px;
+  height: 64px;
+  background-color: #ffffff;
+  color: #F15B22;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 20px 36px;
+  border-radius: 8px;
+  cursor: pointer;
+}
